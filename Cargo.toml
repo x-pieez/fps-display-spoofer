@@ -1,0 +1,10 @@
+[package]
+name = "fps-display-spoofer"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Display-only FPS overlay for Horizon."
+
+[lib]
+path = "mixins/fps_display_spoofer/runtime.rs"
